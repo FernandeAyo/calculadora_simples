@@ -16,7 +16,7 @@ function apagar() {
 function calcular() {
     var visor = document.getElementById('visor').innerHTML;
     
-    //Não sei porque não funciona para deixar o visor vazio
+    //Não sei porque não funciona para deixar o visor vazio quando o valor é undefined
     if(visor == " "){
         document.getElementById('visor').innerHTML = " ";
     } else {
